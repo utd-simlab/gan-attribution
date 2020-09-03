@@ -1,0 +1,8 @@
+[
+    {"dataset_name": "stargan_celeba", "directory": "datasets/stargan_celeba", "resolution": 256, "type": "fake", "header": "StarGAN CelebA", "training_dataset": "real_celeba", "fingerprint": true},
+    {"dataset_name": "progan_celeba", "directory": "datasets/progan_celeba", "resolution": 1024, "type": "fake", "header": "ProGAN CelebA", "training_dataset": "real_celeba", "fingerprint": true},
+    {"dataset_name": "stylegan_celeba", "directory": "datasets/stylegan_celeba", "resolution": 1024, "type": "fake", "header": "StyleGAN CelebA", "training_dataset": "real_celeba", "fingerprint": true},
+    {"dataset_name": "stylegan_ffhq", "directory": "datasets/stylegan_ffhq", "resolution": 1024, "type": "fake", "header": "StyleGAN FFHQ", "training_dataset": "real_ffhq", "fingerprint": true},
+    {"dataset_name": "real_ffhq", "directory": "datasets/real_ffhq", "resolution": 1024, "type": "real", "header": "Real FFHQ", "training_dataset": "real_celeba", "fingerprint": false},
+    {"dataset_name": "real_celeba", "directory": "datasets/real_celeba", "resolution": 1024, "type": "real", "header": "Real CelebA", "training_dataset": "real_ffhq", "fingerprint": false}
+]
